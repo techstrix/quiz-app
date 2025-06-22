@@ -1,0 +1,63 @@
+body {
+  background: #fafafa;
+  font-family: Arial, sans-serif;
+  color:#383838;
+}
+
+.main__container {
+  background: #fff;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 32px 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  text-align: center;
+
+}
+
+.score__card {
+  margin-bottom: 16px;
+}
+
+ul {
+  padding: 0;
+  margin: 0 0 24px 0;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+button {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  background: #f9f9f9;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  background:transparent;
+  border:1px solid #e8eaeb;
+}
+button:hover{
+    border:1px solid #02e1f5;
+}
+button:disabled {
+  background: #eee;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+.directionButtons__container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.direction__button {
+  width: auto;
+  padding: 8px 18px;
+  margin: 0;
+}
